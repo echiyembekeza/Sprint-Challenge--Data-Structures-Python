@@ -49,5 +49,7 @@ class LinkedList:
             prev = current 
             # moves current to nex_node
             current = next
-        # sets head to perv when current pointer is at null
+        # sets head to prev when current pointer is at null
         self.head = prev 
+
+        #try it in recursive to compare

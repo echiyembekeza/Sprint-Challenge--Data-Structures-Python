@@ -9,7 +9,7 @@ class RingBuffer:
             self.queue.append(item)
         else:
             self.queue[self.head] = item
-            self.head = (self.head + 1) % self.capacity
+            self.head = (self.head + 1) % self.capacity 
 
     def get(self):
         return self.queue
